@@ -15,7 +15,7 @@ class BufferPostController extends Controller
         },
         'groupInfo' => function ($q) {
             $q->select('id', 'name', 'type');
-        }])->limit(100)->get();
+        }])->get();
 
         return $posts;
     }
