@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/groups', 'Api\GroupController@index');
+Route::get('/posts', 'Api\BufferPostController@index');
