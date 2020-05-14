@@ -8,3 +8,4 @@ vendor
 .idea
 .env
 public/avatar
+storage/framework/views
